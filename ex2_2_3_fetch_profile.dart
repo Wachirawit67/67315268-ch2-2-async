@@ -7,7 +7,7 @@ Future<Map<String, dynamic>> fetchProfile(int userId) async {
     throw Exception("UserId ไม่ถูกต้อง (ต้องมากกว่า 0)");
   }
 
-  return {"userId": userId, "name": "ชาติชาย", "email": "chartchai@email.com"};
+  return {"userId": userId, "name": "มาล", "email": "maymay@email.com"};
 }
 
 void main() async {
